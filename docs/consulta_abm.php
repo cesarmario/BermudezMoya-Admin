@@ -251,7 +251,7 @@ include('fn/datos_consulta.php');
             <footer>
                 <div class="footer clearfix mb-0 text-muted">
                     <div class="float-start">
-                        <p>&nbsp;Copyright <b>&copy; Grupo DB <script>
+                        <p>&nbsp;Copyright <b>&copy; Bermudez Moya <script>
                                     document.write(new Date().getFullYear());
                                 </script></b></p>
                     </div>
