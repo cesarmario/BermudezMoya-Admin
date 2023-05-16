@@ -33,7 +33,7 @@ if ($_REQUEST['abm'] == 'a' or $_REQUEST['abm'] == 'm') {
         $id_new = $_REQUEST['idInmueble'];
         $nombre = str_pad($id_new, 8, "0", STR_PAD_LEFT) . ".mp4";
         // Ruta donde se guardaran las imagenes cuando se ejecuta Local
-        //$directorio = $_SERVER['DOCUMENT_ROOT'].$_SESSION['sesionc_Path'].'/grupo-db/docs/assets/images/inmuebles/';
+        //$directorio = $_SERVER['DOCUMENT_ROOT'].$_SESSION['sesionc_Path'].'/bermudezmoya/docs/assets/images/inmuebles/';
         // Ruta donde se guardaran las imagenes cuando se ejecuta en al web
         $directorio = $_SERVER['DOCUMENT_ROOT'] . $_SESSION['sesionc_Path'] . '/gestion/assets/videos/';
 
